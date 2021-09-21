@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -13,54 +16,68 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="bigcontainer">
+  <div class="bigcontainer">
+    <header class="header">
       <div class="header__inner">
-        <div class="container">
-          <div class="header__left">
-            <nav class="header__menu">
-              <ul class="menu__list">
-                <li class="menu__list-item">
-                  <a class="menu__list-link" href="#">
-                    ОБО МНЕ
-                  </a>
-                </li>
-                <li class="menu__list-item">
-                  <a class="menu__list-link" href="#">
-                    ПОРТФОЛИО
-                  </a>
-                </li>
-                <li class="menu__list-item">
-                  <a class="menu__list-link" href="#">
-                    КОНТАКТЫ
-                  </a>
-                </li>
-              </ul>
-            </nav>
-            <div class="header__content">
-              <div class="content__info">
-                <h1 class="content__info-title">Екатерина Мелисова</h1>
-                <p class="content__info-text">ДИЗАЙНЕР-ИНТЕРЬЕРА</p>
-              </div>
-              <div class="content__presentation">
-                <img class="content__presentation-img" src="images/presentation.jpg" alt="">
-                <a class="content__presentation-btn" href="#">
-                  Смотреть видео-презентацию
+        <div class="header__left">
+          
+          <nav class="header__menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">
+                  ОБО МНЕ
                 </a>
-              </div>
-            </div>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">
+                  ПОРТФОЛИО
+                </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">
+                  КОНТАКТЫ
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__content">
+            <h1 class="content__title"><span>Екатерина</span> Мелисова</h1>
+            <p class="content__text">ДИЗАЙНЕР-ИНТЕРЬЕРА</p>
           </div>
-          <div class="header__right">
-            <div class="slick">
-              <img class="slick__img" src="images/slider.jpg" alt="slider1">
-              <img class="slick__img" src="images/slider.jpg" alt="slider2">
-              <img class="slick__img" src="images/slider.jpg" alt="slider3">
-            </div>
+          <div class="header__presentation">
+            <img class="presentation__img" src="images/presentation.jpg" alt="">
+            <a class="presentation__btn" href="#">
+              <span>Смотреть</span> видео-презентацию
+            </a>
+          </div>
+        </div>
+        <div class="header__right">
+          <div class="slick">
+            <img class="slick__img" src="images/slider.jpg" alt="slider1">
+            <img class="slick__img" src="images/slider.jpg" alt="slider2">
+            <img class="slick__img" src="images/slider.jpg" alt="slider3">
           </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
+    <section class="gallery">
+      <div class="container">
+        <h1 class="gallery">Портфолио</h1>
+        <div class="gallery__items">
+          <img class="gallery__items-img" src="images/gallery1.jpg" alt="picture1">
+          <img class="gallery__items-img" src="images/gallery2.jpg" alt="picture2">
+          <img class="gallery__items-img" src="images/gallery3.jpg" alt="picture3">
+          <img class="gallery__items-img" src="images/gallery4.jpg" alt="picture4">
+          <img class="gallery__items-img" src="images/gallery5.jpg" alt="picture5">
+          <img class="gallery__items-img" src="images/gallery6.jpg" alt="picture6">
+          <img class="gallery__items-img" src="images/gallery7.jpg" alt="picture7">
+          <img class="gallery__items-img" src="images/gallery8.jpg" alt="picture8">
+          <img class="gallery__items-img" src="images/gallery9.jpg" alt="picture9">
+        </div>
+      </div>
+    </section>
+  </div>
+
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
