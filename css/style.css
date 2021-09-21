@@ -15,7 +15,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #574e56;
 }
 
@@ -37,10 +37,6 @@ ul {
     margin: 0 auto;
 }
 
-
-
-
-
 .header__inner {
     display: flex;
 }
@@ -54,7 +50,7 @@ ul {
 }
 
 .header__menu {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 30px 0 27px;
 }
 
@@ -95,46 +91,45 @@ ul {
     margin-bottom: 30px;
 }
 
-.header__presentation{
+.header__presentation {
     padding-left: 80px;
     display: flex;
     align-items: center;
 }
 
-.presentation__btn{
+.presentation__btn {
     margin-left: 63px;
     position: relative;
+    color: #000000;
 }
 
-.presentation__btn span{
+.presentation__btn span {
     display: block;
 }
 
-.presentation__btn::before{
-    content: '';
+.presentation__btn::before {
+    content: "";
     position: absolute;
     width: 78px;
     height: 78px;
     left: -102px;
     bottom: -16px;
     background-image: url(../images/play.svg);
-
-    
 }
 
 .header__right {
     width: 50%;
 }
 
-.skick{
+.slick {
     position: relative;
 }
 
-.slick__arrow{
+.slick__arrow {
     position: absolute;
     background-color: transparent;
     padding: 25px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     right: 81px;
     bottom: 0px;
     transform: translateY(-50%);
@@ -142,37 +137,227 @@ ul {
     cursor: pointer;
 }
 
-.slick__arrowprev{
+.slick__arrowprev {
     margin-right: 82px;
 }
 
-.slick .slick-dots{
+.slick .slick-dots {
     display: flex;
     position: absolute;
     left: 52px;
     bottom: 50px;
 }
 
-.slick .slick-dots li{
+.slick .slick-dots li {
     margin-right: 9px;
 }
 
-.slick .slick-dots button{
+.slick .slick-dots button {
     font-size: 0;
     padding: 0;
     height: 17px;
     width: 17px;
     border-radius: 50%;
-    background: #C4C4C4;
+    background: #c4c4c4;
     border: none;
 }
 
-.slick .slick-dots .slick-active button{
-    background: #FFFFFF;
+.slick .slick-dots .slick-active button {
+    background: #ffffff;
 }
 
-
-.gallery{
-    padding: 95px 0;
+.gallery {
+    padding: 95px;
 }
 
+.gallery__title {
+    font-family: Lora, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 51px;
+    margin-bottom: 50px;
+}
+
+.gallery__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.about {
+    padding: 100px 0 200px;
+    background: #574e56;
+    color: #ffffff;
+}
+
+.about__title {
+    font-family: Lora, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 51px;
+    margin-bottom: 100px;
+}
+
+.about__inner {
+    display: flex;
+}
+
+.about__info {
+    margin: auto 0;
+    margin-left: 115px;
+}
+
+.about__text {
+    font-size: 14px;
+    line-height: 24px;
+    width: 455px;
+    margin-bottom: 30px;
+}
+
+.about__item {
+    display: flex;
+    margin-top: 20px;
+}
+
+.about__item-text {
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 100px;
+}
+
+.about__item-text span {
+    font-family: Lora, sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 128px;
+    color: #f6d5a7;
+    display: block;
+}
+
+.footer {
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__contact {
+    margin-bottom: 130px;
+}
+
+.footer__title {
+    font-family: Lora, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 51px;
+    margin-bottom: 90px;
+}
+
+.contact__inner {
+    display: flex;
+}
+
+.contact__form {
+    width: 500px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.contact__form-input {
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+}
+
+.contact__form-input::placeholder {
+    font-size: 14px;
+    line-height: 24px;
+    color: #aca9a9;
+}
+
+.contact__form-text {
+    padding-top: 27px;
+    padding-left: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    min-height: 250px;
+}
+
+.contact__form-text::placeholder {
+    font-size: 14px;
+    line-height: 24px;
+    color: #aca9a9;
+}
+
+.contact__form-btn {
+    padding: 26px 70px;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #574e56;
+    border: none;
+}
+
+.contact__lists {
+    display: flex;
+    margin-left: 100px;
+}
+
+.contact__list {
+    margin: 0 25px;
+}
+.contact__list-item {
+    margin-bottom: 60px;
+    padding-left: 50px;
+    position: relative;
+}
+
+.contact__list-item::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0;
+    background-image: url(../images/footer-email.svg);
+}
+
+.contact__list-item--phone::before {
+    background-image: url(../images/footer-phone.svg);
+}
+.contact__list-item--email::before {
+    background-image: url(../images/footer-email.svg);
+}
+.contact__list-item--pinterest::before {
+    background-image: url(../images/footer-pinterest.svg);
+}
+.contact__list-item--instagram::before {
+    background-image: url(../images/footer-instagram.svg);
+}
+.contact__list-item--address::before {
+    background-image: url(../images/footer-location.svg);
+    width: 33px;
+    height: 33px;
+}
+.contact__list-item--behance::before {
+    background-image: url(../images/footer-behance.svg);
+    height: 15px;
+}
+
+.contact__list-lable {
+    display: block;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.contact__list-text {
+    color: #91756a;
+}
+
+.footer__copyright {
+    text-align: center;
+    padding: 50px;
+}
